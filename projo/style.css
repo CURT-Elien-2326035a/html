@@ -1,1 +1,24 @@
- 
+body {
+	background-color: black;
+}
+
+
+.sommaire {
+	list-style-type: none;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.sommaireChoix {
+	font-size: larger;
+	transition: 0.25s ease-in;
+	transition-property: font-size color;
+	text-decoration: none;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: white;
+}
+
+.sommaireChoix:hover {
+		font-size: 125%;
+		color: lightblue;
+}
