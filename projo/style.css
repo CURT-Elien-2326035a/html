@@ -52,6 +52,12 @@ header {
 }
 
 .titrePrincipal {
+    background-image: url("img/Summoners-Rift-Wallpaper.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-y: 50em;
+    background-origin: padding-box;
+    width: 100%;
     display: flex;
     justify-content: center;
     padding-top: 2.5%;
@@ -67,14 +73,32 @@ h1 {
 }
 
 h2 {
-    color: #A09B8C;
+    color: #F0E6D2;
     font-family: 'beaufort_for_lolbold';
     font-size: 450%;
 }
 
 h3 {
     font-family: 'beaufort_for_lolbold';
-    color: 
+    text-align: center;
+    font-size: 200%;
+    color: #C8AA6E;
+    text-underline-offset: 5px;
+    border-bottom: 2px solid #785A28;
+    margin-left: 42.5%;
+    margin-right: 42.5%;
+}
+
+h4 {
+    font-family: 'beaufort_for_lolbold';
+    font-size: 125%;
+    color: #5B5A56;
+}
+
+h5 {
+    font-family: 'beaufort_for_lolbold';
+    font-size: 135%;
+    color: #C8AA6E;
 }
 
 /*BODY*/
@@ -91,11 +115,42 @@ main{
     padding-bottom: 2%;
 }
 
-/*FOOTER*/
+.champ {
+    margin-top: 5%;
+    padding-bottom: 2.5%;
+    border-top: 2px solid #091428;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 
+.champSplashArt {
+    width: 35%;
+    margin-left: 2%;
+    height: auto;
+    display: block;
+    margin-right: auto;
+    border-radius: 20px;
+    border: 2px solid #C89B3C;
+}
+
+.description {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.descriptionTxt {
+    margin-left: 3%;
+}
+
+
+/*FOOTER*/
 footer {
     padding-top: 2%;
     border-top: 2px solid #C89B3C;
     display: flex;
     justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
 }
