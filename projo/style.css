@@ -149,6 +149,59 @@ main{
     margin-left: 3%;
 }
 
+/*FORM*/
+
+.form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+label {
+    font-family: beaufort_for_lolbold;
+    color: #C8AA6E;
+}
+
+input {
+    font-family: spiegelregular;
+    border: 2px solid #0A323C;
+    background-color: #0A1428;
+    color: #C8AA6E;
+    width: 15%;
+    font-size: 110%;
+    transition: 1s ease-out;
+    outline: none;
+}
+
+textarea {
+    font-family: spiegelregular;
+    border: 2px solid #0A323C;
+    background-color: #0A1428;
+    color: #C8AA6E;
+    transition: 1s ease-out;
+    transition-property: border;
+    font-size: 110%;
+    outline: none;
+}
+
+input[type=submit] {
+    height: 15%;
+    font-size: 125%;
+    color: #C89B3C;
+    text-decoration: none;
+    font-family: beaufort_for_lolbold;
+    cursor: pointer;
+    padding-bottom: 1%;
+    padding-top: 1%
+}
+
+input:hover{
+    border: 3px solid #0AC8B9;
+}
+
+textarea:hover {
+    border: 3px solid #0AC8B9;
+}
 
 /*FOOTER*/
 footer {
