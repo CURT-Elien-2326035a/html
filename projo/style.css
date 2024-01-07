@@ -154,8 +154,6 @@ main{
 footer {
     padding-top: 2%;
     border-top: 2px solid #C89B3C;
-    display: flex;
-    flex-direction:column;
 }
 
 .foot{
