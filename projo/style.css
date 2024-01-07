@@ -39,7 +39,9 @@ li {
     padding-top: 1%;
     padding-bottom: 1%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .sommaireChoix {
@@ -58,8 +60,8 @@ li {
     background-image: url("img/Summoners-Rift-Wallpaper.jpg");
     background-attachment: fixed;
     background-size: cover;
-    background-position-y: 50em;
-    background-origin: padding-box;
+    background-position-y: bottom;
+    background-position-x: center;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -128,7 +130,7 @@ main{
 }
 
 .champSplashArt {
-    width: 35%;
+    width: 40%;
     margin-left: 2%;
     height: auto;
     display: block;
@@ -161,4 +163,67 @@ footer {
     flex-direction:row;
     justify-content:space-around;
     align-items:center;
+}
+
+@media only screen and (max-width:1024px){
+
+    .sommaire {
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 10%;
+    }
+
+    .sommaireChoix{
+        font-size: 100%;
+    }
+
+    h1{
+        font-size: 150%;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 250%;
+    }
+
+    h3{
+        font-size: 125%;
+        margin-left: auto;
+        margin-right: auto;
+        border-bottom: none;
+    }
+
+    h4{
+        font-size: 100%;
+    }
+
+    h5{
+        font-size: 100%;
+    }
+
+    .titrePrincipal{
+        background-attachment: local;
+        background-size: 135%;
+        background-position-y: 65%;
+    }
+
+    .champSplashArt{
+        margin-left: auto;
+        width: 70%;
+    }
+
+    .description{
+        flex-direction: column;
+    }
+
+    .descriptionTxt{
+        text-align: center;
+    }
+
+    /*FOOTER*/
+
+    .foot{
+        display:flex;
+        flex-direction: column;
+    }
 }
