@@ -97,7 +97,9 @@ h3 {
 h4 {
     font-family: 'beaufort_for_lolbold';
     font-size: 125%;
-    color: #5B5A56;
+    color: #A09B8C;
+    width: 98vw;
+    text-align: center;
 }
 
 h5 {
@@ -106,12 +108,19 @@ h5 {
     color: #C8AA6E;
 }
 
+h6{
+    font-size: 100%;
+    font-family: 'beaufort_for_lolbold';
+    margin-left: -100000px;
+    position: absolute;
+}
+
 /*BODY*/
 
 body {
     background-color: #010A13;
     font-family: 'spiegelregular';
-    color: #5B5A56;
+    color: #A09B8C;
 }
 
 /*MAIN*/
@@ -130,11 +139,8 @@ main{
 }
 
 .champSplashArt {
-    width: 40%;
+    width: 40vw;
     margin-left: 2%;
-    height: auto;
-    display: block;
-    margin-right: auto;
     border-radius: 20px;
     border: 2px solid #C89B3C;
 }
@@ -142,11 +148,14 @@ main{
 .description {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .descriptionTxt {
-    margin-left: 3%;
+    width: 33vw;
+    margin-right: 10%;
 }
 
 /*FORM*/
@@ -163,11 +172,11 @@ label {
 }
 
 input {
-    font-family: spiegelregular;
+    font-family: 'spiegelregular';
     border: 2px solid #0A323C;
     background-color: #0A1428;
     color: #C8AA6E;
-    width: 15%;
+    width: 15em;
     font-size: 110%;
     transition: 1s ease-out;
     outline: none;
@@ -191,8 +200,8 @@ input[type=submit] {
     text-decoration: none;
     font-family: beaufort_for_lolbold;
     cursor: pointer;
-    padding-bottom: 1%;
-    padding-top: 1%
+    padding-bottom: 1em;
+    padding-top: 1em;
 }
 
 input:hover{
@@ -205,8 +214,9 @@ textarea:hover {
 
 /*FOOTER*/
 footer {
-    padding-top: 2%;
+    padding-top: 2em;
     border-top: 2px solid #C89B3C;
+    font-family: 'spiegelregular';
 }
 
 .foot{
@@ -214,6 +224,9 @@ footer {
     flex-direction:row;
     justify-content:space-around;
     align-items:center;
+}
+footer a{
+    color: #A09B8C;
 }
 
 @media only screen and (max-width:1024px){
@@ -252,6 +265,10 @@ footer {
         font-size: 100%;
     }
 
+    h6{
+        font-size: 100%;
+    }
+
     .titrePrincipal{
         background-attachment: local;
         background-size: 135%;
@@ -260,6 +277,7 @@ footer {
 
     .champSplashArt{
         margin-left: auto;
+        margin-right: auto;
         width: 70%;
     }
 
@@ -269,6 +287,9 @@ footer {
 
     .descriptionTxt{
         text-align: center;
+        width: auto;
+        margin-right: 2vw;
+        margin-left: 2vw;
     }
 
     /*FOOTER*/
