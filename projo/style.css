@@ -121,6 +121,12 @@ body {
     background-color: #010A13;
     font-family: 'spiegelregular';
     color: #A09B8C;
+    margin: 0px;
+}
+
+.paragraphe{
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 /*MAIN*/
@@ -156,6 +162,12 @@ main{
 .descriptionTxt {
     width: 33vw;
     margin-right: 10%;
+}
+
+iframe{
+    align-content: center;
+    display: block;
+    margin: 0 auto;
 }
 
 /*FORM*/
@@ -220,14 +232,21 @@ footer {
     font-family: 'spiegelregular';
 }
 
-.foot{
-    display:flex;
-    flex-direction:row;
-    justify-content:space-around;
-    align-items:center;
+.foot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 15%;
+    margin-left: 15%;
 }
 footer a{
     color: #A09B8C;
+}
+
+footer ul{
+    margin-right: 25%;
+    padding-inline-start: 0px;
 }
 
 @media only screen and (max-width:700px){
