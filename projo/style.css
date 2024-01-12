@@ -47,6 +47,7 @@ li {
 .sommaireChoix {
     font-family: 'beaufort_for_lolbold';
     transition: 0.25s ease-in;
+    transition-property: font-size;
     text-decoration: none;
     color: #C8AA6E;
     font-size: 125%;
@@ -320,6 +321,10 @@ footer ul{
         width: auto;
         margin-right: 2vw;
         margin-left: 2vw;
+    }
+
+    iframe {
+        width: 75vw;
     }
 
     /*FORM*/
