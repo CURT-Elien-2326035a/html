@@ -160,10 +160,11 @@ main{
 
 /*FORM*/
 
-.form {
+form {
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding-bottom: 2%;
 }
 
 label {
@@ -229,16 +230,19 @@ footer a{
     color: #A09B8C;
 }
 
-@media only screen and (max-width:1024px){
+@media only screen and (max-width:700px){
+
+    header ul{
+        padding-inline-start: 0px;
+    }
 
     .sommaire {
         margin-left: auto;
         margin-right: auto;
-        padding-right: 10%;
     }
 
     .sommaireChoix{
-        font-size: 100%;
+        font-size: 60%;
     }
 
     h1{
@@ -248,6 +252,7 @@ footer a{
 
     h2{
         font-size: 250%;
+        text-align: center;
     }
 
     h3{
@@ -290,6 +295,23 @@ footer a{
         width: auto;
         margin-right: 2vw;
         margin-left: 2vw;
+    }
+
+    /*FORM*/
+
+    input {
+        width: 50vw;
+        font-size: 100%;
+    }
+
+    textarea {
+        font-size: 100%;
+        outline: none;
+        width: 75vw;
+    }
+
+    input[type=submit] {
+        font-size: 100%;
     }
 
     /*FOOTER*/

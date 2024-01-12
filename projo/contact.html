@@ -29,21 +29,21 @@
             <h2>Nous Contacter</h2>
         </section>
 
-        <section class="form">
+        <form action="mailto:hugo.lycee13@gmail.com?subject=Proposition-Champion" method="post" enctype="text/plain" target="_blank">
             <h3>Formulaire</h3>
             <p>Si vous pensez que nous avons oublié un champion dans la liste, dites le nous.</p>
             <br>
             <label for="pseudo">Pseudo</label>
-            <input id="pseudo" type="text" name="Pseudo" placeholder="Pseudonyme">
+            <input id="pseudo" type="text" name="Pseudo" placeholder="Pseudonyme" required>
             <br>
             <label for="champion">Champion</label>
-            <input id="champion" type="text" name="champion" placeholder="Champion">
+            <input id="champion" type="text" name="Champion" placeholder="Champion" required>
             <br>
             <label for="choiceR">Commentaire</label>
-            <textarea rows="5" cols="50" placeholder="Raison de votre choix..." id="choiceR"></textarea>
+            <textarea rows="5" cols="50" placeholder="Raison de votre choix..." id="choiceR" name="Commentaire" required></textarea>
             <br>
             <input type="submit" value="Envoyer">
-        </section>
+        </form>
 
     </main>
 
