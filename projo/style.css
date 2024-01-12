@@ -294,10 +294,11 @@ footer ul{
         font-size: 100%;
     }
 
-    .titrePrincipal{
+    .titrePrincipal {
         background-attachment: local;
         background-size: 135%;
         background-position-y: 65%;
+        background-image: url("img/champ/mobile/Summoners-Rift-Wallpaper.webp")
     }
 
     .champSplashArt{
