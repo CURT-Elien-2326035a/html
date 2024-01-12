@@ -146,10 +146,11 @@ main{
 
 .champSplashArt {
     width: 40vw;
-    margin-left: 2%;
     border-radius: 20px;
     border: 2px solid #C89B3C;
 }
+
+
 
 .description {
     display: flex;
@@ -256,12 +257,12 @@ footer ul{
     }
 
     .sommaire {
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     .sommaireChoix{
-        font-size: 60%;
+        font-size: 4vw;
     }
 
     h1{
@@ -303,6 +304,10 @@ footer ul{
         margin-left: auto;
         margin-right: auto;
         width: 70%;
+    }
+
+    picture {
+        padding-left: 20%;
     }
 
     .description{
